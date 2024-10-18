@@ -12,30 +12,34 @@ export default function Home() {
   return (
     <Container>
       <Hero />
-      <SectionTitle
-        preTitle="Nextly Benefits"
-        title=" Why should you use this landing page"
-      >
-        Nextly is a free landing page & marketing website template for startups
-        and indie projects. Its built with Next.js & TailwindCSS. And its
-        completely open-source.
+      <SectionTitle title="О музее">
+        Нейрофизиолог и исследователь мозга оставила уникальное наследие в науке
+        и медицине. Ее вклад в понимание механизмов работы мозга навсегда
+        изменил подход к лечению психических и неврологических заболеваний.
+        Однако Наталья Петровна была не только новатором и ученым мирового
+        уровня. Она глубоко верила в человеческую способность к развитию, поиску
+        радости и исцелению через эмпатию и любовь к жизни.
+        <br />
+        <br />В онлайн-музее мы приглашаем вас прикоснуться к наследию этой
+        великой женщины, погрузиться в её исследования, размышления и жизненные
+        принципы. Здесь мы рассказываем о том, что вдохновляло Наталью Петровну,
+        как её идеи продолжают жить в современных подходах психотерапии и
+        нейробиологии.
       </SectionTitle>
 
-      <Benefits data={benefitOne} />
-      <Benefits imgPos="right" data={benefitTwo} />
+      <Benefits imgPos="left" data={benefitOne} />
+      {/* <Benefits imgPos="right" data={benefitTwo} /> */}
 
       <SectionTitle
-        preTitle="Watch a video"
-        title="Learn how to fullfil your needs"
+        preTitle=""
+        title="Посмотрите видео"
       >
-        This section is to highlight a promo or demo video of your product.
-        Analysts says a landing page with video has 3% more conversion rate. So,
-        don&apos;t forget to add one. Just like this.
+        Видео о музее. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem aliquam obcaecati 
       </SectionTitle>
 
-      <Video videoId="fZ0D0cnR88E" />
+      <Video videoId="5qjGU01fbRY" />
 
-      <SectionTitle
+      {/* <SectionTitle
         preTitle="Testimonials"
         title="Here's what our customers said"
       >
@@ -43,15 +47,15 @@ export default function Home() {
         Use this section to highlight your popular customers.
       </SectionTitle>
 
-      <Testimonials />
+      <Testimonials /> */}
 
-      <SectionTitle preTitle="FAQ" title="Frequently Asked Questions">
+      {/* <SectionTitle preTitle="FAQ" title="Frequently Asked Questions">
         Answer your customers possible questions here, it will increase the
         conversion rate as well as support or chat requests.
-      </SectionTitle>
+      </SectionTitle> */}
 
-      <Faq />
-      <Cta />
+      {/* <Faq />
+      <Cta /> */}
     </Container>
   );
 }

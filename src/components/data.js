@@ -7,29 +7,25 @@ import {
   SunIcon,
 } from "@heroicons/react/24/solid";
 
-import benefitOneImg from "../../public/img/benefit-one.png";
+import benefitOneImg from "../../public/img/ph-1.png";
 import benefitTwoImg from "../../public/img/benefit-two.png";
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: "Что есть в нашем музее",
+  desc: "Наш Учебный центр, названный в её честь, стремится передавать ученикам не только научные знания, но и человеческие ценности, которые она так высоко ценила. Мы верим, что это наследие поможет вам найти свои собственные пути в помощи людям. Добро пожаловать в мир Натальи Петровны Бехтеревой — мир, где наука и человечность идут рука об руку!",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
+      title: "Читайте записи о Н.П. Бехтеревой",
+      desc: 'В "Блоге" вы можете ознакомиться с текстами, посвященными Н.П. Бехтеревой и её открытиям',
       icon: <FaceSmileIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
+      title: "Посмотрите галерею фотографий",
+      desc: "Мы собрали большой архив фотографий, представленных семьей Н.П. Бехтеревой, а также окрасили их при помощи искусственного интеллекта",
       icon: <ChartBarSquareIcon />,
     },
-    {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
-      icon: <CursorArrowRaysIcon />,
-    },
+    
   ],
 };
 
